@@ -1,0 +1,25 @@
+/*---------------------------------------------------------------- 
+// 文件功能描述：通用混合器、模块样式 
+// author：tyy
+// 时间：2020/07/16
+// 修改标识： 
+// 修改描述：
+//----------------------------------------------------------------*/
+
+/* font
+-------------------------- */
+$--font-size: 30px !default;
+/* Color
+-------------------------- */
+$--color-font: #606266 !default;
+$--color-primary: #409EFF !default;
+$--color-white: #fff !default;
+$--color-black: #000000 !default;
+$--border-color: #DCDFE6 !default;
+
+/* Set Basics
+-------------------------- */
+@mixin elementSize($w,$h){  
+	width: $w;
+	height: $h;
+}
